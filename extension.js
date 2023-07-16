@@ -837,7 +837,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
             try {
                 if (typeof window.require == 'function') {
                     lib.node.fs.writeFile(`${__dirname}/${path}${filename}`, data, {
-                        flag: 'r+'
+                        flag: 'w+'
                     }, (err) => {
                         if (err) throw err
                         callback()
@@ -873,7 +873,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
             canvas.toBlob((data)=>{
                 const r = new FileReader()
                 r.onloadend = function(){
-                    game.writeFile(new Uint8Array(r.result), path, filename, callback)
+                    dpbf.writeFile(new Uint8Array(r.result), path, filename, callback)
                 }
                 r.readAsArrayBuffer(data)
             })
