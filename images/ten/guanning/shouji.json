@@ -1,0 +1,225 @@
+{
+    "skeleton": {
+        "hash": "wcIqrfhZ1SDUMnd5DvMdDCmVM3Q",
+        "spine": "3.6.38",
+        "width": 93.61,
+        "height": 85.33,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "suofang",
+            "parent": "root"
+        },
+        {
+            "name": "txzd",
+            "parent": "suofang",
+            "scaleX": 0.23,
+            "scaleY": 0.23
+        },
+        {
+            "name": "tx_chusha_zong",
+            "parent": "txzd"
+        },
+        {
+            "name": "tx_cshit_1",
+            "parent": "tx_chusha_zong"
+        }
+    ],
+    "slots": [
+        {
+            "name": "tx_cshit_1",
+            "bone": "tx_cshit_1",
+            "attachment": "hit_0014"
+        }
+    ],
+    "skins": {
+        "default": {
+            "tx_cshit_1": {
+                "hit_0000": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0001": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0002": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0003": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0004": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0005": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0006": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0007": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0008": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0009": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0010": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0011": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0012": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0013": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                },
+                "hit_0014": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "width": 407,
+                    "height": 371
+                }
+            }
+        }
+    },
+    "animations": {
+        "play": {
+            "slots": {
+                "tx_cshit_1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hit_0000"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "hit_0001"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "hit_0002"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "hit_0003"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "hit_0004"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "hit_0005"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "hit_0006"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "hit_0007"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "hit_0008"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "hit_0009"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "hit_0010"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "hit_0011"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "hit_0012"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "hit_0013"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "hit_0014"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "tx_cshit_1": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1.25,
+                            "y": 1.25
+                        }
+                    ]
+                },
+                "tx_chusha_zong": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": -4,
+                            "y": 4
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

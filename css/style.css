@@ -1,0 +1,240 @@
+.anicap{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+.animation-player-dpbf{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 190px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 8px;
+    pointer-events:none;
+}
+.bg-dpbf{
+    width: 120px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: -2;
+    pointer-events:none;
+}
+.dynamicBackground{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    width: 120px;
+    height: 180px;
+    border-radius: 8px;
+    pointer-events:none;
+}
+.dpbf{
+    background-image: linear-gradient(to bottom, rgba(178,178,178,1),rgba(78,78,78,1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    pointer-events:none;
+}
+.GongJi-dpbf{
+    position: fixed !important;
+    left: 0% !important;
+    top: 0% !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    width: 100%;
+    height: 100%;
+    z-index: 999 !important;
+    pointer-events:none;
+}
+.dynamicCanvas{
+    position: absolute;
+    border-radius: 8px;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 190px;
+    width:120px;
+    pointer-events:none;
+}
+.dynamicCanvas-bg{
+    height: 180px;
+    z-index: -111;
+}
+.Grayscale{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: grayscale(100%) !important;
+    opacity: 0;
+    z-index: 9999999999999999999999;
+}
+.player .dy_avatar{
+    height: 160px !important;
+    position: absolute;
+    z-index: -111412342342798546723984562345234762394 !important;
+}
+.animation-player-dpbf-skel{
+    width: 120px;
+    height: 190px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 8px;
+    pointer-events:none;
+}
+.animation-player-dpbf-skel-bg{
+    height: 180px !important;
+    pointer-events:none;
+}
+.dpbf-phase{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 640px;
+    height: 640px;
+    z-index: 999 !important;
+    pointer-events:none;
+}
+.dpbf-phase-me{
+    transform: translate(-70%,-70%);
+}
+.useJing,.useDong{
+    background-image: url(../images/dpbf/useJingtai.png);
+    background-position: center;
+    background-size: cover;
+    width: 105px;
+    height: 31.5px;
+    position: absolute;
+    right: 0;
+    bottom: 34%;
+    z-index: 999;
+    transition: all 1s;
+}
+.useDong{
+    background-image: url(../images/dpbf/useDongtai.png);
+}
+#dpbf-ani-canvas,#dpbf-ani-canvasb{
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.headBorder{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 666;
+}
+.headBorder[border-wei]{
+    background-image: url(../images/dpbf/wei.png)
+}
+.headBorder[border-shu]{
+    background-image: url(../images/dpbf/shu.png)
+}
+.headBorder[border-wu]{
+    background-image: url(../images/dpbf/wu.png)
+}
+.headBorder[border-qun]{
+    background-image: url(../images/dpbf/qun.png)
+}
+.headBorder[border-shen]{
+    background-image: url(../images/dpbf/shen.png)
+}
+.headBorder[border-ye]{
+    background-image: url(../images/dpbf/ye.png)
+}
+.headBorder[border-jin]{
+    background-image: url(../images/dpbf/jin.png)
+}
+.dpbf-huanfu{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-image: url("../images/dpbf/icon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 5555 !important;
+    left: 80%;
+    top: 100%;
+    zoom: 80%;
+}
+.dpbf-huanfu-me{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-image: url("../images/dpbf/icon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 55555 !important;
+    left: 10%;
+    top: -35%;
+}
+.skins-box{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(78,78,78,0.3);
+    z-index: 9415641564156156415641 !important;
+}
+.skins-border{
+    height: 50%;
+    top: 25%;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.huanfu-item{
+    width: 120px;
+    height: 192px;
+    background: url(../images/dpbf/小杀.png);
+    background-position: center;
+    background-size: cover;
+    position: static;
+    text-shadow: 1px 1px 1px black;
+    color: #F5D78E;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 8px;
+    zoom: 1.2;
+}
+#layaCanvas{
+    pointer-events: none;
+    z-index: 5645646;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.dynmaic-wrap-dpbf{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 60;
+}

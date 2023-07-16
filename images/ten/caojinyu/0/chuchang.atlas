@@ -1,0 +1,83 @@
+
+chuchang.png
+size: 1982,1982
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caojinyu_chuchang/caojinyu_chuchang_pc_05
+  rotate: false
+  xy: 2, 958
+  size: 509, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_07
+  rotate: false
+  xy: 2, 446
+  size: 507, 510
+  orig: 510, 510
+  offset: 3, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_09
+  rotate: false
+  xy: 511, 446
+  size: 505, 510
+  orig: 510, 510
+  offset: 5, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_11
+  rotate: false
+  xy: 513, 958
+  size: 501, 510
+  orig: 510, 510
+  offset: 9, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_13
+  rotate: false
+  xy: 1018, 454
+  size: 501, 506
+  orig: 510, 510
+  offset: 9, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_15
+  rotate: false
+  xy: 1026, 1473
+  size: 509, 507
+  orig: 510, 510
+  offset: 1, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_17
+  rotate: false
+  xy: 2, 1470
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_19
+  rotate: false
+  xy: 514, 1471
+  size: 510, 509
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_21
+  rotate: false
+  xy: 1016, 962
+  size: 473, 507
+  orig: 510, 510
+  offset: 37, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_23
+  rotate: false
+  xy: 1491, 965
+  size: 470, 506
+  orig: 510, 510
+  offset: 40, 0
+  index: -1
+caojinyu_chuchang/caojinyu_chuchang_pc_25
+  rotate: false
+  xy: 1521, 462
+  size: 459, 501
+  orig: 510, 510
+  offset: 51, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+chuchang.png
+size: 2010,2010
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qinmi_chuchang/qinmi_chuchang_pc_05
+  rotate: false
+  xy: 1026, 995
+  size: 496, 506
+  orig: 510, 510
+  offset: 14, 1
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_07
+  rotate: false
+  xy: 1516, 485
+  size: 492, 508
+  orig: 510, 510
+  offset: 18, 0
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_09
+  rotate: false
+  xy: 1021, 485
+  size: 493, 508
+  orig: 510, 510
+  offset: 17, 0
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_11
+  rotate: false
+  xy: 1019, 1503
+  size: 498, 505
+  orig: 510, 510
+  offset: 12, 0
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_13
+  rotate: false
+  xy: 514, 1503
+  size: 503, 505
+  orig: 510, 510
+  offset: 7, 2
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_15
+  rotate: false
+  xy: 512, 494
+  size: 507, 506
+  orig: 510, 510
+  offset: 3, 0
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_17
+  rotate: false
+  xy: 514, 1002
+  size: 510, 499
+  orig: 510, 510
+  offset: 0, 9
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_19
+  rotate: false
+  xy: 2, 1508
+  size: 510, 500
+  orig: 510, 510
+  offset: 0, 9
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_21
+  rotate: false
+  xy: 2, 1006
+  size: 510, 500
+  orig: 510, 510
+  offset: 0, 9
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_23
+  rotate: false
+  xy: 2, 504
+  size: 508, 500
+  orig: 510, 510
+  offset: 2, 9
+  index: -1
+qinmi_chuchang/qinmi_chuchang_pc_25
+  rotate: false
+  xy: 2, 2
+  size: 503, 500
+  orig: 510, 510
+  offset: 7, 9
+  index: -1

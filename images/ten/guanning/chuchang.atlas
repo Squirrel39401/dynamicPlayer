@@ -1,0 +1,83 @@
+
+chuchang.png
+size: 2006,2006
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanning_chuchang/guanning_chuchang_pc_05
+  rotate: false
+  xy: 2, 1494
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_07
+  rotate: false
+  xy: 2, 982
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_09
+  rotate: false
+  xy: 2, 470
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_11
+  rotate: false
+  xy: 514, 1494
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_13
+  rotate: false
+  xy: 1026, 1494
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_15
+  rotate: false
+  xy: 514, 982
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_17
+  rotate: false
+  xy: 1026, 995
+  size: 510, 497
+  orig: 510, 510
+  offset: 0, 7
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_19
+  rotate: false
+  xy: 1026, 504
+  size: 510, 489
+  orig: 510, 510
+  offset: 0, 8
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_21
+  rotate: false
+  xy: 1026, 14
+  size: 510, 488
+  orig: 510, 510
+  offset: 0, 8
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_23
+  rotate: false
+  xy: 514, 2
+  size: 510, 488
+  orig: 510, 510
+  offset: 0, 8
+  index: -1
+guanning_chuchang/guanning_chuchang_pc_25
+  rotate: false
+  xy: 514, 492
+  size: 510, 488
+  orig: 510, 510
+  offset: 0, 8
+  index: -1

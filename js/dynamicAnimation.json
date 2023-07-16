@@ -1,0 +1,73 @@
+{
+    "character": {
+        "caochun": {},
+        "qinmi": {},
+        "caojinyu": {},
+        "guanning": {},
+        "xuyou": {},
+        "shen_machao": {},
+        "dx_tonghu": {
+            "line_single": "images/ten/guanning/"
+        },
+        "ol_wangrong": {}
+    },
+    "card": {
+        "sha": {
+            "name": "Sha/cardSkillSha"
+        },
+        "shan": {
+            "name": "Shan/cardSkillShan"
+        },
+        "tao": {
+            "name": "Tao/cardSkillTao"
+        },
+        "jiu": {
+            "name": "Jiu/cardSkillJiu"
+        },
+        "HongSha": {
+            "name": "HongSha/cardSkillHongSha"
+        },
+        "HeiSha": {
+            "name": "HeiSha/cardSkillHeiSha"
+        },
+        "guohe": {
+            "name": "GuoHeChaiQiao/cardSkillGuoHeChaiQiao"
+        },
+        "tiesuo": {
+            "name": "TieSuoLianHuan/cardSkillTieSuoLianHuan"
+        },
+        "jiedao": {
+            "name": "JieDaoShaRen/cardSkillJieDaoShaRen"
+        },
+        "juedou": {
+            "name": "JueDou/cardSkillJueDou"
+        },
+        "nanman": {
+            "name": "NanManRuQin/cardSkillNanManRuQin"
+        },
+        "shunshou": {
+            "name": "ShunShouQianYang/cardSkillShunShouQianYang"
+        },
+        "taoyuan": {
+            "name": "TaoYuanJieYi/cardSkillTaoYuanJieYi"
+        },
+        "wanjian": {
+            "name": "WanJianQiFa/cardSkillWanJianQiFa"
+        },
+        "wugu": {
+            "name": "WuGuFengDeng/cardSkillWuGuFengDeng"
+        },
+        "wuxie": {
+            "name": "WuXieKeJi/cardSkillWuXieKeJi"
+        },
+        "wuzhong": {
+            "name": "WuZhongShengYou/cardSkillWuZhongShengYou"
+        },
+        "huogong": {
+            "name": "HuoGong/cardSkillHuoGong"
+        },
+        "binglin": {
+            "name": "BingLinChengXia/cardSkillBingLinChengXia"
+        }
+    }
+}

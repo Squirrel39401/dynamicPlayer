@@ -1,0 +1,69 @@
+
+shouji.png
+size: 1954,1954
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_img/tx_csshouji_58
+  rotate: false
+  xy: 2, 1566
+  size: 386, 386
+  orig: 723, 603
+  offset: 179, 111
+  index: -1
+tx_img/tx_csshouji_60
+  rotate: false
+  xy: 720, 883
+  size: 587, 542
+  orig: 723, 603
+  offset: 93, 31
+  index: -1
+tx_img/tx_csshouji_62
+  rotate: false
+  xy: 666, 286
+  size: 612, 595
+  orig: 723, 603
+  offset: 82, 1
+  index: -1
+tx_img/tx_csshouji_64
+  rotate: false
+  xy: 1280, 266
+  size: 633, 595
+  orig: 723, 603
+  offset: 76, 1
+  index: -1
+tx_img/tx_csshouji_66
+  rotate: false
+  xy: 2, 339
+  size: 662, 580
+  orig: 723, 603
+  offset: 61, 1
+  index: -1
+tx_img/tx_csshouji_68
+  rotate: false
+  xy: 1309, 863
+  size: 643, 562
+  orig: 723, 603
+  offset: 37, 1
+  index: -1
+tx_img/tx_csshouji_70
+  rotate: false
+  xy: 2, 921
+  size: 716, 535
+  orig: 723, 603
+  offset: 6, 25
+  index: -1
+tx_img/tx_csshouji_72
+  rotate: false
+  xy: 1010, 1427
+  size: 715, 525
+  orig: 723, 603
+  offset: 8, 38
+  index: -1
+tx_img/tx_csshouji_74
+  rotate: false
+  xy: 390, 1458
+  size: 618, 494
+  orig: 723, 603
+  offset: 55, 46
+  index: -1

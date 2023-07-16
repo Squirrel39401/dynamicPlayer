@@ -1,0 +1,104 @@
+
+chuchang.png
+size: 2018,2018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_00
+  rotate: true
+  xy: 1560, 2
+  size: 67, 65
+  orig: 552, 552
+  offset: 261, 205
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_02
+  rotate: false
+  xy: 341, 168
+  size: 187, 186
+  orig: 552, 552
+  offset: 196, 150
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_04
+  rotate: false
+  xy: 2, 27
+  size: 337, 327
+  orig: 552, 552
+  offset: 107, 93
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_06
+  rotate: false
+  xy: 1560, 71
+  size: 443, 443
+  orig: 552, 552
+  offset: 46, 52
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_08
+  rotate: true
+  xy: 1093, 516
+  size: 476, 486
+  orig: 552, 552
+  offset: 28, 46
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_10
+  rotate: false
+  xy: 1110, 1495
+  size: 525, 521
+  orig: 552, 552
+  offset: 1, 29
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_12
+  rotate: false
+  xy: 556, 408
+  size: 523, 521
+  orig: 552, 552
+  offset: 7, 30
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_14
+  rotate: false
+  xy: 2, 1464
+  size: 552, 552
+  orig: 552, 552
+  offset: 0, 0
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_16
+  rotate: false
+  xy: 2, 910
+  size: 552, 552
+  orig: 552, 552
+  offset: 0, 0
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_18
+  rotate: false
+  xy: 556, 1464
+  size: 552, 552
+  orig: 552, 552
+  offset: 0, 0
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_20
+  rotate: false
+  xy: 2, 356
+  size: 552, 552
+  orig: 552, 552
+  offset: 0, 0
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_22
+  rotate: false
+  xy: 556, 931
+  size: 535, 531
+  orig: 552, 552
+  offset: 17, 18
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_24
+  rotate: false
+  xy: 1110, 994
+  size: 522, 499
+  orig: 552, 552
+  offset: 17, 30
+  index: -1
+spzhaoyun_chuchang/spzhaoyun_chuchang_pc_26
+  rotate: false
+  xy: 1081, 46
+  size: 477, 468
+  orig: 552, 552
+  offset: 44, 43
+  index: -1

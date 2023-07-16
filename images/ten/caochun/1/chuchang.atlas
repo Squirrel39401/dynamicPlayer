@@ -1,0 +1,97 @@
+
+chuchang.png
+size: 2003,2003
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caochun_chuchang/caochun_chuchang_pc_01
+  rotate: false
+  xy: 306, 292
+  size: 149, 173
+  orig: 510, 510
+  offset: 173, 232
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_03
+  rotate: false
+  xy: 2, 134
+  size: 302, 331
+  orig: 510, 510
+  offset: 109, 131
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_05
+  rotate: false
+  xy: 1526, 1507
+  size: 468, 494
+  orig: 510, 510
+  offset: 37, 16
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_07
+  rotate: false
+  xy: 1509, 477
+  size: 492, 500
+  orig: 510, 510
+  offset: 18, 10
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_09
+  rotate: false
+  xy: 512, 467
+  size: 498, 510
+  orig: 510, 510
+  offset: 12, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_11
+  rotate: false
+  xy: 1025, 1491
+  size: 499, 510
+  orig: 510, 510
+  offset: 11, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_13
+  rotate: false
+  xy: 2, 979
+  size: 509, 510
+  orig: 510, 510
+  offset: 1, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_15
+  rotate: false
+  xy: 514, 1491
+  size: 509, 510
+  orig: 510, 510
+  offset: 1, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_17
+  rotate: false
+  xy: 2, 1491
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_19
+  rotate: false
+  xy: 2, 467
+  size: 508, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_21
+  rotate: false
+  xy: 513, 979
+  size: 505, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_23
+  rotate: false
+  xy: 1020, 979
+  size: 496, 510
+  orig: 510, 510
+  offset: 6, 0
+  index: -1
+caochun_chuchang/caochun_chuchang_pc_25
+  rotate: false
+  xy: 1012, 470
+  size: 495, 507
+  orig: 510, 510
+  offset: 0, 0
+  index: -1

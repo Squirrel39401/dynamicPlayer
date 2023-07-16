@@ -1,0 +1,21 @@
+.animation-player-dpbf,.dynamicBackground,.animation-player-dpbf-skel,.animation-player-dpbf-skel-bg{
+    width:83%;
+    left:16%;
+    z-index: 20 !important;
+    top: auto !important;
+    height:108% !important;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+.animation-player-dpbf-skel-bg{
+    z-index: 19 !important;
+}
+.headBorder{
+    left: -1px;
+    position: absolute;
+    top: -20px;
+    height: 40px;
+    width: 132px;
+    z-index: 61 !important;
+    background-size: contain;
+}

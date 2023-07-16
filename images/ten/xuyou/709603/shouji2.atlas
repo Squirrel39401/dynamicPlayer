@@ -1,0 +1,62 @@
+
+shouji2.png
+size: 1464,1464
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_img/tx_csdandao_51
+  rotate: false
+  xy: 2, 6
+  size: 337, 272
+  orig: 904, 296
+  offset: 566, 24
+  index: -1
+tx_img/tx_csdandao_53
+  rotate: false
+  xy: 755, 272
+  size: 707, 296
+  orig: 904, 296
+  offset: 196, 0
+  index: -1
+tx_img/tx_csdandao_55
+  rotate: false
+  xy: 2, 1166
+  size: 845, 296
+  orig: 904, 296
+  offset: 53, 0
+  index: -1
+tx_img/tx_csdandao_57
+  rotate: false
+  xy: 2, 868
+  size: 843, 296
+  orig: 904, 296
+  offset: 20, 0
+  index: -1
+tx_img/tx_csdandao_59
+  rotate: false
+  xy: 2, 570
+  size: 813, 296
+  orig: 904, 296
+  offset: 3, 0
+  index: -1
+tx_img/tx_csdandao_61
+  rotate: false
+  xy: 2, 280
+  size: 751, 288
+  orig: 904, 296
+  offset: 3, 8
+  index: -1
+tx_img/tx_csdandao_63
+  rotate: false
+  xy: 849, 1176
+  size: 535, 286
+  orig: 904, 296
+  offset: 3, 10
+  index: -1
+tx_img/tx_csdandao_65
+  rotate: false
+  xy: 341, 102
+  size: 336, 176
+  orig: 904, 296
+  offset: 20, 61
+  index: -1

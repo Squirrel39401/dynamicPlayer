@@ -1,0 +1,111 @@
+
+shouji.png
+size: 1241,1241
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_0000
+  rotate: true
+  xy: 2, 2
+  size: 274, 272
+  orig: 407, 371
+  offset: 62, 51
+  index: -1
+hit_0001
+  rotate: true
+  xy: 601, 15
+  size: 299, 285
+  orig: 407, 371
+  offset: 58, 51
+  index: -1
+hit_0002
+  rotate: true
+  xy: 308, 318
+  size: 309, 291
+  orig: 407, 371
+  offset: 55, 50
+  index: -1
+hit_0003
+  rotate: true
+  xy: 949, 625
+  size: 322, 285
+  orig: 407, 371
+  offset: 42, 50
+  index: -1
+hit_0004
+  rotate: false
+  xy: 301, 629
+  size: 326, 293
+  orig: 407, 371
+  offset: 38, 50
+  index: -1
+hit_0005
+  rotate: true
+  xy: 629, 316
+  size: 319, 296
+  orig: 407, 371
+  offset: 45, 47
+  index: -1
+hit_0006
+  rotate: false
+  xy: 630, 949
+  size: 327, 290
+  orig: 407, 371
+  offset: 37, 48
+  index: -1
+hit_0007
+  rotate: true
+  xy: 2, 597
+  size: 325, 297
+  orig: 407, 371
+  offset: 39, 45
+  index: -1
+hit_0008
+  rotate: false
+  xy: 927, 321
+  size: 312, 302
+  orig: 407, 371
+  offset: 45, 43
+  index: -1
+hit_0009
+  rotate: true
+  xy: 308, 3
+  size: 311, 291
+  orig: 407, 371
+  offset: 44, 41
+  index: -1
+hit_0010
+  rotate: false
+  xy: 629, 637
+  size: 318, 299
+  orig: 407, 371
+  offset: 41, 36
+  index: -1
+hit_0011
+  rotate: false
+  xy: 312, 938
+  size: 316, 301
+  orig: 407, 371
+  offset: 39, 34
+  index: -1
+hit_0012
+  rotate: true
+  xy: 927, 18
+  size: 301, 311
+  orig: 407, 371
+  offset: 54, 30
+  index: -1
+hit_0013
+  rotate: false
+  xy: 2, 278
+  size: 304, 317
+  orig: 407, 371
+  offset: 51, 29
+  index: -1
+hit_0014
+  rotate: false
+  xy: 2, 924
+  size: 308, 315
+  orig: 407, 371
+  offset: 48, 32
+  index: -1

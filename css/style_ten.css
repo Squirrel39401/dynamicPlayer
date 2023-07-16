@@ -1,0 +1,5 @@
+.dynamicPlayer{
+    clip-path: url(#dskin-clip-dpbf);
+    -webkit-clip-path: url(#dskin-clip-dpbf);
+    height: 200px;
+}

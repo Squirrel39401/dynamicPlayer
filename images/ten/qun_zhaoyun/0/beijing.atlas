@@ -1,0 +1,496 @@
+
+beijing.png
+size: 1699,1699
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx100
+  rotate: false
+  xy: 986, 99
+  size: 109, 81
+  orig: 135, 127
+  offset: 14, 25
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx101
+  rotate: false
+  xy: 879, 97
+  size: 105, 83
+  orig: 135, 127
+  offset: 17, 25
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx102
+  rotate: false
+  xy: 1533, 1264
+  size: 107, 86
+  orig: 135, 127
+  offset: 15, 25
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx103
+  rotate: true
+  xy: 727, 895
+  size: 109, 90
+  orig: 135, 127
+  offset: 14, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx104
+  rotate: false
+  xy: 621, 31
+  size: 110, 92
+  orig: 135, 127
+  offset: 13, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx105
+  rotate: false
+  xy: 733, 2
+  size: 110, 93
+  orig: 135, 127
+  offset: 13, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx106
+  rotate: false
+  xy: 477, 233
+  size: 111, 92
+  orig: 135, 127
+  offset: 12, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx107
+  rotate: false
+  xy: 766, 97
+  size: 111, 93
+  orig: 135, 127
+  offset: 12, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx108
+  rotate: false
+  xy: 766, 192
+  size: 111, 94
+  orig: 135, 127
+  offset: 12, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx109
+  rotate: true
+  xy: 614, 569
+  size: 110, 96
+  orig: 135, 127
+  offset: 13, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx110
+  rotate: true
+  xy: 614, 458
+  size: 109, 96
+  orig: 135, 127
+  offset: 13, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx111
+  rotate: false
+  xy: 845, 3
+  size: 110, 92
+  orig: 135, 127
+  offset: 13, 24
+  index: -1
+TX/spzhaoyun_beijing_tx1/spzhaoyun_beijing_tx112
+  rotate: true
+  xy: 727, 1006
+  size: 110, 91
+  orig: 135, 127
+  offset: 13, 25
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_00
+  rotate: false
+  xy: 614, 285
+  size: 144, 171
+  orig: 218, 196
+  offset: 58, 16
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_01
+  rotate: false
+  xy: 891, 294
+  size: 146, 171
+  orig: 218, 196
+  offset: 57, 17
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_02
+  rotate: true
+  xy: 1039, 312
+  size: 144, 173
+  orig: 218, 196
+  offset: 57, 17
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_03
+  rotate: false
+  xy: 481, 499
+  size: 131, 179
+  orig: 218, 196
+  offset: 57, 14
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_04
+  rotate: false
+  xy: 1392, 642
+  size: 135, 180
+  orig: 218, 196
+  offset: 56, 13
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_05
+  rotate: true
+  xy: 1073, 458
+  size: 143, 177
+  orig: 218, 196
+  offset: 54, 13
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_06
+  rotate: false
+  xy: 1543, 1352
+  size: 149, 172
+  orig: 218, 196
+  offset: 53, 15
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_07
+  rotate: false
+  xy: 1543, 1526
+  size: 152, 171
+  orig: 218, 196
+  offset: 52, 13
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_08
+  rotate: true
+  xy: 1505, 826
+  size: 146, 176
+  orig: 218, 196
+  offset: 56, 10
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_09
+  rotate: true
+  xy: 1214, 281
+  size: 142, 175
+  orig: 218, 196
+  offset: 56, 11
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_10
+  rotate: true
+  xy: 1523, 1117
+  size: 143, 174
+  orig: 218, 196
+  offset: 54, 12
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_11
+  rotate: true
+  xy: 1523, 974
+  size: 141, 174
+  orig: 218, 196
+  offset: 54, 12
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_12
+  rotate: false
+  xy: 1392, 465
+  size: 135, 175
+  orig: 218, 196
+  offset: 57, 13
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_13
+  rotate: false
+  xy: 1252, 425
+  size: 132, 176
+  orig: 218, 196
+  offset: 57, 15
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_14
+  rotate: true
+  xy: 1214, 151
+  size: 128, 175
+  orig: 218, 196
+  offset: 58, 18
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_15
+  rotate: true
+  xy: 1039, 182
+  size: 128, 173
+  orig: 218, 196
+  offset: 58, 19
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_16
+  rotate: false
+  xy: 1391, 117
+  size: 128, 170
+  orig: 218, 196
+  offset: 59, 21
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_17
+  rotate: false
+  xy: 1391, 289
+  size: 132, 174
+  orig: 218, 196
+  offset: 57, 18
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_18
+  rotate: true
+  xy: 712, 469
+  size: 132, 179
+  orig: 218, 196
+  offset: 56, 14
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_19
+  rotate: false
+  xy: 760, 288
+  size: 129, 179
+  orig: 218, 196
+  offset: 58, 15
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_20
+  rotate: true
+  xy: 893, 467
+  size: 134, 178
+  orig: 218, 196
+  offset: 60, 16
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_21
+  rotate: true
+  xy: 1529, 565
+  size: 131, 167
+  orig: 218, 196
+  offset: 60, 17
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_22
+  rotate: true
+  xy: 1529, 698
+  size: 126, 168
+  orig: 218, 196
+  offset: 60, 18
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_23
+  rotate: false
+  xy: 481, 327
+  size: 131, 170
+  orig: 218, 196
+  offset: 58, 20
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_24
+  rotate: true
+  xy: 1525, 288
+  size: 130, 171
+  orig: 218, 196
+  offset: 59, 21
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_25
+  rotate: false
+  xy: 476, 73
+  size: 143, 158
+  orig: 218, 196
+  offset: 57, 20
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_26
+  rotate: false
+  xy: 621, 125
+  size: 143, 158
+  orig: 218, 196
+  offset: 56, 19
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_27
+  rotate: false
+  xy: 1521, 127
+  size: 143, 159
+  orig: 218, 196
+  offset: 56, 19
+  index: -1
+TX/spzhaoyun_beijing_tx2/spzhaoyun_beijing_tx2_28
+  rotate: true
+  xy: 1529, 420
+  size: 143, 165
+  orig: 218, 196
+  offset: 57, 15
+  index: -1
+TX/spzhaoyun_beijing_tx3/00000
+  rotate: false
+  xy: 1063, 1480
+  size: 239, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00001
+  rotate: false
+  xy: 487, 900
+  size: 238, 216
+  orig: 243, 219
+  offset: 0, 3
+  index: -1
+TX/spzhaoyun_beijing_tx3/00002
+  rotate: false
+  xy: 1062, 1262
+  size: 237, 216
+  orig: 243, 219
+  offset: 0, 3
+  index: -1
+TX/spzhaoyun_beijing_tx3/00003
+  rotate: false
+  xy: 1304, 1481
+  size: 237, 216
+  orig: 243, 219
+  offset: 0, 3
+  index: -1
+TX/spzhaoyun_beijing_tx3/00004
+  rotate: false
+  xy: 2, 24
+  size: 236, 216
+  orig: 243, 219
+  offset: 0, 3
+  index: -1
+TX/spzhaoyun_beijing_tx3/00005
+  rotate: false
+  xy: 820, 1041
+  size: 233, 218
+  orig: 243, 219
+  offset: 0, 1
+  index: -1
+TX/spzhaoyun_beijing_tx3/00006
+  rotate: false
+  xy: 820, 822
+  size: 232, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00007
+  rotate: false
+  xy: 1304, 1262
+  size: 227, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00008
+  rotate: false
+  xy: 1295, 1043
+  size: 226, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00009
+  rotate: false
+  xy: 715, 603
+  size: 225, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00010
+  rotate: false
+  xy: 942, 603
+  size: 224, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00011
+  rotate: false
+  xy: 1054, 822
+  size: 224, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00012
+  rotate: false
+  xy: 1168, 603
+  size: 222, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00013
+  rotate: false
+  xy: 1280, 824
+  size: 223, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00014
+  rotate: false
+  xy: 487, 681
+  size: 226, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00015
+  rotate: false
+  xy: 1062, 1043
+  size: 231, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00016
+  rotate: false
+  xy: 240, 23
+  size: 234, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00017
+  rotate: false
+  xy: 240, 242
+  size: 235, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00018
+  rotate: false
+  xy: 2, 242
+  size: 236, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00019
+  rotate: false
+  xy: 243, 461
+  size: 236, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00020
+  rotate: false
+  xy: 2, 899
+  size: 241, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00021
+  rotate: false
+  xy: 820, 1480
+  size: 241, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00022
+  rotate: false
+  xy: 2, 461
+  size: 239, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00023
+  rotate: false
+  xy: 245, 899
+  size: 240, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00024
+  rotate: false
+  xy: 2, 680
+  size: 241, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00025
+  rotate: false
+  xy: 820, 1261
+  size: 240, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+TX/spzhaoyun_beijing_tx3/00026
+  rotate: false
+  xy: 245, 680
+  size: 239, 217
+  orig: 243, 219
+  offset: 0, 2
+  index: -1
+beijing
+  rotate: false
+  xy: 2, 1118
+  size: 816, 579
+  orig: 816, 579
+  offset: 0, 0
+  index: -1

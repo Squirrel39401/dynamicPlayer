@@ -1,0 +1,111 @@
+
+chuchang.png
+size: 1930,1930
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenmachao_chuchang/shenmachao_chuchang_pc_00
+  rotate: false
+  xy: 1439, 817
+  size: 144, 147
+  orig: 480, 480
+  offset: 121, 189
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_02
+  rotate: false
+  xy: 966, 146
+  size: 331, 338
+  orig: 480, 480
+  offset: 50, 80
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_04
+  rotate: false
+  xy: 966, 486
+  size: 471, 478
+  orig: 480, 480
+  offset: 0, 2
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_06
+  rotate: false
+  xy: 2, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_08
+  rotate: false
+  xy: 484, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_10
+  rotate: false
+  xy: 2, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_12
+  rotate: false
+  xy: 2, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_14
+  rotate: false
+  xy: 484, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_16
+  rotate: false
+  xy: 966, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_18
+  rotate: false
+  xy: 1448, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_20
+  rotate: false
+  xy: 484, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_22
+  rotate: false
+  xy: 484, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_24
+  rotate: false
+  xy: 966, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_26
+  rotate: false
+  xy: 1448, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+shenmachao_chuchang/shenmachao_chuchang_pc_28
+  rotate: false
+  xy: 2, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1

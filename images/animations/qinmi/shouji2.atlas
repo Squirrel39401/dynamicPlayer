@@ -1,0 +1,139 @@
+
+shouji2.png
+size: 839,839
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+niao_1
+  rotate: false
+  xy: 592, 564
+  size: 194, 273
+  orig: 195, 273
+  offset: 0, 0
+  index: -1
+niao_2
+  rotate: true
+  xy: 514, 433
+  size: 129, 264
+  orig: 131, 266
+  offset: 1, 0
+  index: -1
+niao_3
+  rotate: false
+  xy: 637, 118
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+niao_4
+  rotate: false
+  xy: 780, 477
+  size: 57, 59
+  orig: 57, 60
+  offset: 0, 1
+  index: -1
+niao_5
+  rotate: false
+  xy: 425, 282
+  size: 64, 75
+  orig: 65, 76
+  offset: 0, 1
+  index: -1
+niao_6
+  rotate: false
+  xy: 462, 8
+  size: 106, 82
+  orig: 106, 82
+  offset: 0, 0
+  index: -1
+niao_7
+  rotate: false
+  xy: 434, 92
+  size: 167, 84
+  orig: 167, 85
+  offset: 0, 1
+  index: -1
+niao_9
+  rotate: true
+  xy: 506, 276
+  size: 155, 255
+  orig: 155, 255
+  offset: 0, 0
+  index: -1
+tuowei_1_00000
+  rotate: true
+  xy: 603, 8
+  size: 168, 32
+  orig: 816, 210
+  offset: 562, 85
+  index: -1
+tuowei_1_00002
+  rotate: false
+  xy: 434, 178
+  size: 238, 34
+  orig: 816, 210
+  offset: 492, 88
+  index: -1
+tuowei_1_00004
+  rotate: true
+  xy: 788, 538
+  size: 299, 49
+  orig: 816, 210
+  offset: 430, 81
+  index: -1
+tuowei_1_00006
+  rotate: false
+  xy: 425, 214
+  size: 390, 60
+  orig: 816, 210
+  offset: 339, 69
+  index: -1
+tuowei_1_00008
+  rotate: false
+  xy: 2, 2
+  size: 458, 76
+  orig: 816, 210
+  offset: 251, 65
+  index: -1
+tuowei_1_00010
+  rotate: false
+  xy: 2, 359
+  size: 502, 89
+  orig: 816, 210
+  offset: 184, 59
+  index: -1
+tuowei_1_00012
+  rotate: false
+  xy: 2, 586
+  size: 549, 113
+  orig: 816, 210
+  offset: 96, 48
+  index: -1
+tuowei_1_00014
+  rotate: false
+  xy: 2, 701
+  size: 588, 136
+  orig: 816, 210
+  offset: 27, 36
+  index: -1
+tuowei_1_00016
+  rotate: false
+  xy: 2, 450
+  size: 510, 134
+  orig: 816, 210
+  offset: 27, 21
+  index: -1
+tuowei_1_00018
+  rotate: false
+  xy: 2, 80
+  size: 430, 131
+  orig: 816, 210
+  offset: 27, 25
+  index: -1
+tuowei_1_00020
+  rotate: false
+  xy: 2, 213
+  size: 421, 144
+  orig: 816, 210
+  offset: 30, 31
+  index: -1
