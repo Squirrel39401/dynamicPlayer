@@ -12,29 +12,60 @@
             this.callback = call
         }
         load(){
-            Laya.loader.load(this.preloads,Laya.Handler.create(this,this.loadEnd,[this.preloads],true))
+            let promise = Promise.resolve()
+            for(let i of this.preloads){
+                promise.then(()=>{
+                    return this.loadCard(i)
+                })
+            }
+            promise.then(()=>{
+                this.loadEnd()
+            })
+        }
+        loadCard(card){
+            return new Promise((resolve,reject)=>{
+                Laya.loader.load(card,Laya.Handler.create(this,()=>{
+                    resolve(this.preloads)
+                }))
+            })
         }
         preload(path){
             path = this.path + path
-            this.preloads.push({url:`${path}.sk`,type:Laya.Loader.BUFFER,name2:path},{url:`${path}.png`,type:Laya.Loader.IMAGE,name2:path})
+            this.preloads.push(
+                [{url:`${path}.sk`,type:Laya.Loader.BUFFER,name2:path},{url:`${path}.png`,type:Laya.Loader.IMAGE,name2:path}]
+            )
         }
-        loadEnd(cardPath){
-            cardPath.forEach(card=>{
+        loadEnd(){
+            let promise = Promise.resolve(this)
+            this.preloads.forEach(card=>{
+                card = card[0]
                 let path = card.name2
                 let name = path.split('/').pop()
-                let temp = new Laya.Templet()
-                temp.loadAni(`${path}.sk`)
-                this.templets[name] = temp
+                promise.then((loader)=>{
+                    return new Promise((res)=>{
+                        let temp = new Laya.Templet()
+                        temp.loadAni(`${path}.sk`)
+                        temp.on(Laya.Event.COMPLETE, temp, function(){
+                            res(loader)
+                        })
+                        this.templets[name] = temp
+                    })
+                })
             })
-            setTimeout(()=>{this.callback(this)},3000)
+            let int = setInterval(()=>{
+                try{
+                    this.callback(this)
+                    clearInterval(int)
+                }
+                catch{}
+            },200)
         }
     }
     class Player {
         constructor(loader){
             this.skeletons = {}
             Object.keys(loader.templets).forEach(templet=>{
-                this.skeletons[templet] = new Laya.Skeleton(loader.templets[templet])
-                let sk = this.skeletons[templet] 
+                let sk = this.skeletons[templet] = new Laya.Skeleton(loader.templets[templet])
                 sk.x = window.innerWidth / 2 - 50
                 sk.y = window.innerHeight / 2 - 50
                 sk.scale(1,1)
@@ -44,7 +75,7 @@
             name = name.split('/').pop()
             Laya.stage.addChild(this.skeletons[name])
             this.skeletons[name].play(0)
-            this.skeletons[name].on('stopped',()=>{
+            this.skeletons[name].on('stopped', this, ()=>{
                 Laya.stage.removeChild(this.skeletons[name])
             })
             if(card){

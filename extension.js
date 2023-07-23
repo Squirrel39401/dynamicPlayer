@@ -16,8 +16,8 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
         game: game,
         default: {},
         cardData: {},
-        logSkill:lib.element.player.logSkill,
-        isSkill:function (name) {
+        logSkill: lib.element.player.logSkill,
+        isSkill: function (name) {
             let info = lib.skill[name]
             return info && game.expandSkills(this.skills).contains(name)
         },
@@ -46,16 +46,16 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                         }
                     }
                 }
-                Object.assign(lib.element.player,{
-                    playDynamic_skel:function (skin) {
+                Object.assign(lib.element.player, {
+                    playDynamic_skel: function (skin) {
                         let player = this
-                        if(!player.node.dpbf_huanfu){
+                        if (!player.node.dpbf_huanfu) {
                             let huanfu = ui.create.div(`.dpbf-huanfu${player == game.me ? '-me' : ''}`, player, () => {
                                 let skins = player.dpbf_datas, skins_box = ui.create.div('.skins-box', ui.window, () => {
                                     skins_box.remove()
                                 }), skins_border = ui.create.div('.skins-border', skins_box)
-                                skins.forEach((item, index) => {
-                                    let item_skin = ui.create.div('.huanfu-item', `动皮${get.cnNumber(index + 1, true)}`, skins_border, () => {
+                                skins && skins.forEach((item, index) => {
+                                    let item_skin = ui.create.div('.huanfu-item', item[6].skinName || `动皮${get.cnNumber(index + 1, true)}`, skins_border, () => {
                                         player.toggleDynamic(item_skin.index)
                                     })
                                     let skin = item[6]
@@ -71,6 +71,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             let jingF = () => {
                                 dpbf.ani.cap.playSpineTo(player, 'huanfu', player)
                                 let _this = jing
+                                _this.pl.node.avatar.classList.add('jing_avatar')
                                 _this.pl.doing = false
                                 _this.pl.dynamic_skel.forEach(item => item.canvas.remove())
                                 _this.remove()
@@ -97,10 +98,8 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             jing.pl = player
                             let dong = ui.create.div('.useDong')
                             dong.pl = player
-                            jing.addEventListener('click', jingF)
-                            dong.addEventListener('click', dongF)
-                            jing.addEventListener('touchend', jingF)
-                            dong.addEventListener('touchend', dongF)
+                            jing.addEventListener(lib.config.touchscreen ? 'touchend': 'click', jingF)
+                            dong.addEventListener(lib.config.touchscreen ? 'touchend': 'click', dongF)
                         }
                         let app = player.dynamic_skel ? player.dynamic_skel[0].app : false
                         let daiji = new LayaDynamic.DynamicPlayer_skel(`${dpbf.path}${skin.name}daiji.${skin.type || 'skel'}`, player, false, app)
@@ -117,7 +116,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                         player.node.border = border
                         player.node.avatar.classList.add('dy_avatar')
                     },
-                    playLineAnimate : function (targets, linedata, shoujidata) {
+                    playLineAnimate: function (targets, linedata, shoujidata) {
                         for (let target of targets) {
                             let skeleton = new PIXI_dpbf.spine.Spine(linedata.spineData)
                             let style = getComputedStyle(target), style1 = getComputedStyle(this)
@@ -139,7 +138,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             }, skeleton.spineData.findAnimation('play').duration * 1000)
                         }
                     },
-                    getAngle : function (target) {
+                    getAngle: function (target) {
                         let style1 = getComputedStyle(target);
                         let style2 = this;
                         let left1 = parseInt(style1.left);
@@ -149,7 +148,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                         let radian = Math.atan2(top1 - top2, left1 - left2); // 返回来的是弧度
                         return 180 / Math.PI * radian
                     },
-                    getSkills : function (arg2, arg3, arg4) {
+                    getSkills: function (arg2, arg3, arg4) {
                         var skills = this.skills.slice(0);
                         var es = [];
                         var i, j;
@@ -192,7 +191,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                         if (dpbf.dynamicSkills[this.name] && (this.dynamic_skel || this.dpbf_dynamics || this.dynamic_dpbf || this.$dynamicWrap)) skills.add(dpbf.dynamicSkills[this.name].name)
                         return skills;
                     },
-                    logSkill : function(name, targets, nature, logv) {
+                    logSkill: function (name, targets, nature, logv) {
                         dpbf.logSkill.apply(this, arguments)
                         let isSkill = function (name) {
                             let info = lib.skill[name]
@@ -211,7 +210,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             this.spine_source && this.playDpbf_dynamic(null, 'jineng')
                         }
                     },
-                    toggleDynamic : function (number) {
+                    toggleDynamic: function (number) {
                         let player = this
                         let skin = dpbf.dynamicSkins[this.name][number]
                         let dynamics = this.dynamic_skel
@@ -250,7 +249,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             dpbf.writeImg(canvas, `${dpbf.path}${name}`, 'daijiSkin.png', callback)
                         }
                     },
-                    playDynamic_dpbf : function (sprite, deputy) {
+                    playDynamic_dpbf: function (sprite, deputy) {
                         let width = this.doubleAvatar ? [0, 0.5] : [0, 1]
                         function clip(sprite, back) {
                             let height = lib.config['extension_十周年UI_newDecadeStyle'] == 'on' ? [back ? 180 : 200, 0] : [0, 1]
@@ -304,13 +303,13 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             if (!animation) {
                                 delete this.dynamic_dpbf[deputy ? 'primary' : 'avatar']['path']
                             }
-                            else{
+                            else {
                                 this.dynamic_dpbf[deputy ? 'primary' : 'avatar'].gongji.time = animation.duration * 1000
                             }
                         })
                         return sprite
                     },
-                    playDpbf_dynamic : function (position, action) {
+                    playDpbf_dynamic: function (position, action) {
                         let x = getComputedStyle(this).left, y = getComputedStyle(this).top
                         x = parseInt(x)
                         y = parseInt(y)
@@ -371,7 +370,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                                     skeleton.destroy()
                                     setTimeout(() => { shouji.destroy() }, shouji.spineData.findAnimation('play').duration * 1000)
                                 }, skeleton.spineData.findAnimation('play').duration * 1000)
-        
+
                             }
                         }
                         if (action == 'gongji') {
@@ -397,8 +396,8 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                 })
             },
             initSkills() {
-                Object.assign(lib.skill,{
-                    _dpbf_init_ani : {
+                Object.assign(lib.skill, {
+                    _dpbf_init_ani: {
                         trigger: {
                             player: 'initEnd'
                         },
@@ -431,7 +430,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             }
                         }
                     },
-                    _dpbf_init : {
+                    _dpbf_init: {
                         trigger: {
                             player: 'initEnd'
                         },
@@ -547,7 +546,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                                     }
                                     player.playDynamic_dpbf(style2, true)
                                 }
-        
+
                                 let border = ui.create.div('.headBorder', player)
                                 border.setAttribute(`border-${player.group}`, player.group)
                                 if (!(['qun', 'wei', 'shu', 'wu', 'ye', 'jin', 'shen'].includes(player.group))) border.setAttribute(`border-${'qun'}`, player.group)
@@ -557,7 +556,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             game.delay(3)
                         }
                     },
-                    _dpbf_die_skel : {
+                    _dpbf_die_skel: {
                         trigger: {
                             player: 'dieBegin'
                         },
@@ -572,7 +571,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             player.dynamic_skel[0].sprite.audio && game.playAudio('..', `extension/audio/${player.dynamic_skel[0].sprite.audio}${player.name}.mp3`)
                         }
                     },
-                    _phaseSingle_skel : {
+                    _phaseSingle_skel: {
                         trigger: {
                             player: 'phaseBegin'
                         },
@@ -590,7 +589,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             player.dynamic_skel[0].chuchangSingle(game.me == player)
                         }
                     },
-                    _phaseSingle_skel_ani : {
+                    _phaseSingle_skel_ani: {
                         trigger: {
                             player: 'phaseBegin'
                         },
@@ -606,7 +605,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             player.playDpbf_dynamic(null, 'chuchang')
                         }
                     },
-                    _useCardSingle_skel_ani : {
+                    _useCardSingle_skel_ani: {
                         trigger: {
                             player: 'useCardBefore'
                         },
@@ -629,7 +628,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             }, 'gongji')
                         }
                     },
-                    _useCardSingle_skel : {
+                    _useCardSingle_skel: {
                         trigger: {
                             player: 'useCardBefore'
                         },
@@ -651,7 +650,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             player.dynamic_skel[0].gongji({ targets: targets })
                         }
                     },
-                    _useCardSingle_card : {
+                    _useCardSingle_card: {
                         trigger: {
                             player: 'useCardBefore'
                         },
@@ -678,7 +677,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             //dpbf.player.play(dpbf.dynamicAnimation_card[name].name,trigger.cards?trigger.cards[0]:void 0)
                         }
                     },
-                    useSkill_single : {
+                    useSkill_single: {
                         trigger: {
                             player: 'useSkillBefore'
                         },
@@ -697,7 +696,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                             })
                         }
                     },
-                    _useCardSingle : {
+                    _useCardSingle: {
                         trigger: {
                             player: 'useCardBefore'
                         },
@@ -728,10 +727,10 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                                     style.scale = style.scale || 0.5
                                 }
                                 player.dynamic_dpbf.renderer.postMessage({
-                                    message:'HIDEFORTIME',
-                                    id:player.dynamic_dpbf.id,
-                                    skinID:player.dynamic_dpbf.avatar.id,
-                                    time:style.time
+                                    message: 'HIDEFORTIME',
+                                    id: player.dynamic_dpbf.id,
+                                    skinID: player.dynamic_dpbf.avatar.id,
+                                    time: style.time
                                 })
                                 lib.config['extension_十周年UI_newDecadeStyle'] == 'on' ? style.y[1] += 0.2 : void 0;
                                 dpbf.ani.playSpine({
@@ -755,10 +754,10 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                                     style.scale = style.scale || 0.5
                                 }
                                 player.dynamic_dpbf.renderer.postMessage({
-                                    message:'HIDEFORTIME',
-                                    id:player.dynamic_dpbf.id,
-                                    skinID:player.dynamic_dpbf.primary.id,
-                                    time:style.time
+                                    message: 'HIDEFORTIME',
+                                    id: player.dynamic_dpbf.id,
+                                    skinID: player.dynamic_dpbf.primary.id,
+                                    time: style.time
                                 })
                                 lib.config['extension_十周年UI_newDecadeStyle'] == 'on' ? style.y[1] += 0.2 : void 0;
                                 dpbf.ani.playSpine({
@@ -774,6 +773,99 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
         },
         init() {
             Object.values(this.inits).forEach(func => func())
+        },
+        async readjustSkeleton(skin) {
+            let app = dpbf.readjustCanvas||new PIXI_dpbf.Application({
+                view: document.createElement('canvas'),
+                width: 120 * 2,
+                height: 190 * 2,
+                transparent: true,
+                backgroundAlpha: 0,
+                resolution: 2,
+                preserveDrawingBuffer: true
+            }), canvas = app.view, ori
+            app.stage.children = []
+            dpbf.readjustCanvas = app
+            app.stage.sortableChildren = true
+            canvas.classList.add('readjust')
+            document.body.appendChild(canvas)
+            let sks = await dpbf.getDecadeSkeleton(skin)
+            sks.forEach(sk => {
+                sk.state.setAnimation(0, 'play', true)
+                app.stage.addChild(sk)
+            })
+            let scales = [ui.create.div('.readjustScaleB',document.body,()=>{
+                sks.forEach(sk=>{
+                    sk.scale.set(sk.scale._x + 0.01)
+                })
+            }),
+            ui.create.div('.readjustScaleS',document.body,()=>{
+                sks.forEach(sk=>{
+                    sk.scale.set(Math.max(0,0.00001,sk.scale._x - 0.01))
+                })
+            }),
+            ui.create.div('.sure',document.body,up)
+            ]
+            function down(evt){
+                window.addEventListener(lib.config.touchscreen ? "touchmove" : 'mousemove', move)
+                ori = {
+                    x:evt.clientX/game.documentZoom,
+                    y:evt.clientY/game.documentZoom,
+                    orix:sks[0].x,
+                    oriy:sks[0].y,
+                }
+            }
+            function move(evt){
+                let x = evt.clientX/game.documentZoom - ori.x
+                let y = evt.clientY/game.documentZoom - ori.y
+                sks.forEach(sk=>{
+                    sk.x = x + ori.orix
+                    sk.y = y + ori.oriy
+                })
+            }
+            function up(){
+                window.removeEventListener(lib.config.touchscreen ? "touchmove" : 'mousemove', move)
+                canvas.removeEventListener(lib.config.touchscreen ? "touchstart" : "mousedown",down)
+                let {x,y,scale,} = sks[0]
+                x = (x / 2 - 60) / 120 
+                y = (y / 2 - 90) / 190 
+                scale = scale._x / 2
+                console.log('x:',x,'y:',y,'scale',scale);
+                canvas.getWebGL().getExtension('WEBGL_lose_context').loseContext()
+                canvas.remove()
+                scales.forEach(scale => scale.remove())
+            }
+            function remove(){
+                window.removeEventListener(lib.config.touchscreen ? "touchmove" : 'mousemove', move)
+            }
+            canvas.addEventListener(lib.config.touchscreen ? "touchstart" : "mousedown", down)
+            window.addEventListener("mouseup",remove)
+        },
+        async getDecadeSkeleton(sprite) {
+            sprite = Object.assign(sprite, {})
+            let { x, y, scale } = sprite
+            let {left,top} = dpbf.dynamicSkins.default.position
+            let daijiName = `${dpbf.path}${sprite.name}daiji.${sprite.type || 'skel'}`, beijingName = `${dpbf.path}${sprite.name}beijing.${sprite.type || 'skel'}`, loader = PIXI_dpbf.Assets.loader, daiji, beijing
+            let res1 = await loader.load(daijiName), res2 = await loader.load(beijingName)
+            {
+                daiji = new PIXI_dpbf.spine.Spine(res1.spineData)
+                daiji.x = (x * 120 + 60) * 2
+                daiji.y = (y * 190 + 90) * 2
+                daiji.scale.set((scale || 1) * 2)
+            }
+            {
+                beijing = new PIXI_dpbf.spine.Spine(res2.spineData)
+                beijing.x = (x * 120 + 60) * 2
+                beijing.y = (y * 190 + 90) * 2
+                beijing.scale.set((scale || 1) * 2)
+                beijing.zIndex--
+                let mask = new PIXI_dpbf.Graphics();
+                mask.beginFill(0x66CCFF);
+                mask.drawRoundedRect(left * 120 + 66, top * 190 + 90, 246, 400, 16);
+                mask.endFill();
+                beijing.mask = mask
+            }
+            return [daiji, beijing]
         },
         getTenSkeleton(skin, player) {
             let { name, x, y, ten, scale, chuchang, chuchangSingle, line_single } = skin
@@ -814,7 +906,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
             skin.line_single && loader.load(dpbf.path + line_single + 'shouji.json').then(source => { shouji_single_data = source })
             skin.line_single && loader.load(dpbf.path + line_single + 'shouji2.json').then(source => { line_single_data = source })
             setTimeout(() => {
-                player.dpbf_datas.push([daiji, beijing, chuchang_data, chuchang_single_data, line_single_data, shouji_single_data, skin])
+                player && player.dpbf_datas.push([daiji, beijing, chuchang_data, chuchang_single_data, line_single_data, shouji_single_data, skin])
             }, 4000)
         },
         cardPath: lib.assetURL + 'extension/动皮播放/images/card/',
@@ -833,18 +925,17 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
          * @param {String} filename 
          * @param {Function} callback 
          */
-        async writeFile(data, path, filename, callback = () => { }) {
+        async writeFile(data, path, filename, create = true) {
             try {
                 if (typeof window.require == 'function') {
                     lib.node.fs.writeFile(`${__dirname}/${path}${filename}`, data, {
-                        flag: 'w+'
+                        flag: create ? 'w+' : 'r+'
                     }, (err) => {
                         if (err) throw err
-                        callback()
                     })
                 }
                 else {
-                    game.writeFile(data, path, filename, callback)
+                    game.writeFile(data, path, filename, () => { })
                 }
                 return true
             }
@@ -859,25 +950,25 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
          * @param {String} filename 文件名
          * @param {Function} callback 方法 可不写
          */
-        async writeImg(image, path, filename, callback = () => { }) { 
+        async writeImg(image, path, filename, callback = () => { }) {
             let canvas
-            if(image instanceof HTMLCanvasElement){
+            if (image instanceof HTMLCanvasElement) {
                 canvas = image
             }
-            else{
+            else {
                 canvas = document.createElement('canvas')
                 canvas.width = image.offsetWidth
                 canvas.height = image.offsetHeight
                 canvas.getContext('2d').drawImage(image, 0, 0)
             }
-            canvas.toBlob((data)=>{
+            canvas.toBlob((data) => {
                 const r = new FileReader()
-                r.onloadend = function(){
-                    dpbf.writeFile(new Uint8Array(r.result), path, filename, callback)
+                r.onloadend = function () {
+                    dpbf.writeFile(new Uint8Array(r.result), path, filename).then(callback)
                 }
                 r.readAsArrayBuffer(data)
             })
-            
+
         },
         dynamicSkills: {
             shen_guojia: {
@@ -893,14 +984,14 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                 filter: (evt, pl) => !pl.changed,
                 content() {
                     player.changed = true
-                    let deputy = player.name2 == 'shen_guojia',skinIDs = [player.dynamic_dpbf.BUILT_ID++, player.dynamic_dpbf.BUILT_ID++]
+                    let deputy = player.name2 == 'shen_guojia', skinIDs = [player.dynamic_dpbf.BUILT_ID++, player.dynamic_dpbf.BUILT_ID++]
                     player.dynamic_dpbf.renderer.postMessage({
                         message: 'CHANGESKIN',
                         id: player.dynamic_dpbf.id,
                         paths: ['shen_g/sg', '../dynamicBackground/shen_g/BeiJing_c'],
                         sprite: player.dynamic_dpbf[deputy ? 'primary' : 'avatar'].style,
                         lutou: lib.config['extension_十周年UI_newDecadeStyle'] == 'on',
-                        ids : [player.dynamic_dpbf[deputy ? 'primary' : 'avatar'].id,player.dynamic_dpbf[deputy ? 'primary' : 'avatar'].dynamicBackground.id],
+                        ids: [player.dynamic_dpbf[deputy ? 'primary' : 'avatar'].id, player.dynamic_dpbf[deputy ? 'primary' : 'avatar'].dynamicBackground.id],
                         skinIDs
                     })
                     dpbf.ani.loadSpine('../dynamicSkins/shen_g/sg', 'skel', () => {
@@ -1046,8 +1137,10 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                     dpbf.ani.canvas.height = window.innerHeight
                 })
                 document.addEventListener('visibilitychange', () => {
+                    if (!dpbf.dynamicIndex) return;
                     let data = JSON.stringify(dpbf.dynamicIndex, null, '\t')
-                    dpbf.writeFile(data, dpbf.path + 'js/', 'dynamic.json')
+                    console.log(data);
+                    dpbf.writeFile(data, dpbf.path + 'js/', 'dynamic.json', false)
                 })
                 ani.cap.animations.forEach(c => Object.assign(c.canvas.style, {
                     position: 'absolute',

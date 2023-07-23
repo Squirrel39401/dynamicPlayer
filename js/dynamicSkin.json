@@ -8,23 +8,39 @@
         },
         "noArray": true
     },
-    "liuyan": {
-        "name": "liuyan",
-        "scale": 0.7,
-        "y": [
-            0,
-            -0.1
-        ],
-        "skinName": "雄踞益州",
-        "dynamicBackground": {
-            "name": "liuyan",
+    "liuyan": [
+        {
+            "ten": "skel",
             "scale": 0.5,
-            "x": [
-                0,
-                0.75
-            ]
+            "y": 0.28,
+            "x": -0.15,
+            "name": "images/ten/liuyan/841403/",
+            "chuchangSingle": "images/ten/liuyan/841403/chuchang.json",
+            "chuchang": "images/ten/liuyan/841403/chuchang2.skel",
+            "line_single": "images/ten/liuyan/841403/",
+            "skinName":"秋霜金枫"
+        },
+        {
+            "type": "json",
+            "name": "images/ten/liuyan/741401/",
+            "scale": 0.6,
+            "x": 0,
+            "y": 0.2,
+            "ten": "skel",
+            "chuchangSingle": "images/ten/liuyan/741401/chuchang.json",
+            "skinName":"异心显露"
+        },
+        {
+            "type": "json",
+            "name": "images/ten/liuyan/841401/",
+            "scale": 0.4,
+            "x": -0.18,
+            "y": 0.15,
+            "ten": "skel",
+            "chuchangSingle": "images/ten/liuyan/841401/chuchang.json",
+            "skinName":"逐鹿天下"
         }
-    },
+    ],
     "liuzan": {
         "name": "liuzan",
         "scale": 0.5,
@@ -326,5 +342,96 @@
             "y": 0.15,
             "chuchangSingle": "images/ten/zhaoxiang/750101/chuchang.json"
         }
-    ]
+    ],
+    "sb_diaochan": {
+        "name": "diaochan/XingXiang",
+        "scale": 0.68,
+        "x": [
+            0,
+            -0.7
+        ],
+        "y": [
+            0,
+            0
+        ],
+        "dynamicBackground": {
+            "name": "diaochan/BeiJing"
+        },
+        "gongji": {
+            "auto": true,
+            "x": [
+                0,
+                0.4
+            ],
+            "y": [
+                0,
+                0.4
+            ],
+            "scale": 0.6
+        }
+    },
+    "diaochan": {
+        "name": "diaochan/XingXiang",
+        "scale": 0.68,
+        "x": [
+            0,
+            0.2
+        ],
+        "y": [
+            0,
+            0
+        ],
+        "dynamicBackground": {
+            "name": "diaochan/BeiJing"
+        },
+        "gongji": {
+            "auto": true,
+            "x": [
+                0,
+                0.3
+            ],
+            "y": [
+                0,
+                0.6
+            ],
+            "scale": 0.7
+        }
+    },
+    "xizhicai":[{
+        "name":"images/ten/xizhicai/742004/",
+        "scale":0.38,
+        "x":0.035277777777777665,
+        "y":0.13289473684210526,
+        "ten":"skel",
+        "chuchang":"images/ten/xizhicai/742004/chuchang2.skel",
+        "chuchangSingle":"images/ten/xizhicai/742004/chuchang.json",
+        "line_single":"images/ten/xizhicai/742004/"
+    },
+    {
+        "name":"images/ten/xizhicai/742001/",
+        "scale":0.26,
+        "x":-0.23,
+        "y":0,
+        "ten":"skel",
+        "type":"json",
+        "chuchangSingle":"images/ten/xizhicai/742001/chuchang.json"
+    },
+    {
+        "name":"images/ten/xizhicai/742002/",
+        "scale":0.4,
+        "x":-0.4,
+        "y":0.15,
+        "ten":"skel",
+        "type":"json",
+        "chuchangSingle":"images/ten/xizhicai/742002/chuchang.json"
+    },
+    {
+        "name":"images/ten/xizhicai/842001/",
+        "scale":0.38,
+        "x":0.75,
+        "y":0.04,
+        "ten":"skel",
+        "type":"json",
+        "chuchangSingle":"images/ten/xizhicai/842001/chuchang.json"
+    }]
 }

@@ -1,0 +1,104 @@
+
+shouji2.png
+size: 1908,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx/cs_dd_00
+  rotate: false
+  xy: 863, 3
+  size: 232, 68
+  orig: 693, 160
+  offset: 77, 44
+  index: -1
+tx/cs_dd_01
+  rotate: false
+  xy: 628, 3
+  size: 233, 68
+  orig: 693, 160
+  offset: 223, 44
+  index: -1
+tx/cs_dd_02
+  rotate: false
+  xy: 1248, 27
+  size: 595, 113
+  orig: 693, 160
+  offset: 74, 15
+  index: -1
+tx/cs_dd_03
+  rotate: false
+  xy: 2, 72
+  size: 624, 108
+  orig: 693, 160
+  offset: 47, 17
+  index: -1
+tx/cs_dd_04
+  rotate: false
+  xy: 2, 182
+  size: 631, 104
+  orig: 693, 160
+  offset: 39, 20
+  index: -1
+tx/cs_dd_05
+  rotate: false
+  xy: 2, 288
+  size: 650, 102
+  orig: 693, 160
+  offset: 20, 21
+  index: -1
+tx/cs_dd_06
+  rotate: false
+  xy: 654, 291
+  size: 627, 99
+  orig: 693, 160
+  offset: 39, 24
+  index: -1
+tx/cs_dd_07
+  rotate: false
+  xy: 1283, 301
+  size: 623, 89
+  orig: 693, 160
+  offset: 40, 32
+  index: -1
+tx/cs_dd_08
+  rotate: false
+  xy: 1283, 216
+  size: 623, 83
+  orig: 693, 160
+  offset: 39, 35
+  index: -1
+tx/cs_dd_09
+  rotate: false
+  xy: 2, 2
+  size: 621, 68
+  orig: 693, 160
+  offset: 42, 39
+  index: -1
+tx/cs_dd_10
+  rotate: false
+  xy: 654, 221
+  size: 621, 68
+  orig: 693, 160
+  offset: 42, 39
+  index: -1
+tx/cs_dd_11
+  rotate: false
+  xy: 1256, 142
+  size: 615, 72
+  orig: 693, 160
+  offset: 45, 37
+  index: -1
+tx/cs_dd_12
+  rotate: false
+  xy: 635, 147
+  size: 619, 72
+  orig: 693, 160
+  offset: 43, 37
+  index: -1
+tx/cs_dd_13
+  rotate: false
+  xy: 628, 73
+  size: 618, 72
+  orig: 693, 160
+  offset: 41, 37
+  index: -1

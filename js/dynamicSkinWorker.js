@@ -55,6 +55,7 @@ onmessage = function (e) {
                     t.opacity = 1;
                 }
                  t.fadeTo(1, 600);
+                 dynamic.nodes.sort(node => -(node.name.indexOf('dynamicBackground')))
             };
             
             if (dynamic.hasSpine(sprite.name)) {
@@ -104,7 +105,7 @@ onmessage = function (e) {
         case 'CREATEDYNAMICBACKGROUND':
             var dynamic = dynamics.getById(data.id);
             var sprite = data.sprite
-            dynamic.loadSpine('../dynamicBackground/' + sprite.name, 'skel', ()=>{
+            dynamic.loadSpine('../dynamicBackground/' + sprite.name, sprite.type || 'skel', ()=>{
                 Object.assign(sprite,{
                     opacity:1,
                     loop:true,
@@ -116,6 +117,7 @@ onmessage = function (e) {
                     try{sprite2.skeleton.state.addAnimation(0,'DaiJi',true,-0.01)}
                     catch{sprite2.skeleton.state.addAnimation(0,'BeiJing',true,-0.01)}
                 }
+                dynamic.nodes.sort(node => -(node.name.indexOf('dynamicBackground')))
             })
             break;
         case 'STOP':

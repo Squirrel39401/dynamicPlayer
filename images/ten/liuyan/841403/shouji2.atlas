@@ -1,0 +1,139 @@
+
+shouji2.png
+size: 1940,1940
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chusha_longxl_00000
+  rotate: false
+  xy: 647, 363
+  size: 100, 82
+  orig: 768, 407
+  offset: 668, 11
+  index: -1
+chusha_longxl_00002
+  rotate: true
+  xy: 481, 331
+  size: 717, 164
+  orig: 1379, 842
+  offset: 662, 76
+  index: -1
+chusha_longxl_00004
+  rotate: false
+  xy: 2, 6
+  size: 410, 412
+  orig: 1379, 842
+  offset: 553, 110
+  index: -1
+chusha_longxl_00006
+  rotate: true
+  xy: 966, 446
+  size: 612, 303
+  orig: 1379, 842
+  offset: 572, 228
+  index: -1
+chusha_longxl_00008
+  rotate: false
+  xy: 414, 34
+  size: 450, 295
+  orig: 1379, 842
+  offset: 761, 370
+  index: -1
+chusha_longxl_00010
+  rotate: true
+  xy: 1605, 495
+  size: 526, 287
+  orig: 1379, 842
+  offset: 694, 367
+  index: -1
+chusha_longxl_00012
+  rotate: true
+  xy: 1625, 1023
+  size: 544, 313
+  orig: 1379, 842
+  offset: 696, 375
+  index: -1
+chusha_longxl_00014
+  rotate: false
+  xy: 866, 112
+  size: 448, 332
+  orig: 1379, 842
+  offset: 706, 381
+  index: -1
+chusha_longxl_00016
+  rotate: false
+  xy: 1380, 1569
+  size: 556, 369
+  orig: 1379, 842
+  offset: 690, 372
+  index: -1
+chusha_longxl_00018
+  rotate: true
+  xy: 2, 420
+  size: 628, 477
+  orig: 1379, 842
+  offset: 665, 355
+  index: -1
+chusha_longxl_00020
+  rotate: false
+  xy: 2, 1050
+  size: 619, 493
+  orig: 1379, 842
+  offset: 668, 348
+  index: -1
+chusha_longxl_00022
+  rotate: false
+  xy: 623, 1060
+  size: 565, 472
+  orig: 1379, 842
+  offset: 684, 353
+  index: -1
+chusha_longxl_00024
+  rotate: true
+  xy: 1190, 1080
+  size: 452, 433
+  orig: 1379, 842
+  offset: 760, 357
+  index: -1
+chusha_longxl_00026
+  rotate: false
+  xy: 732, 1534
+  size: 646, 404
+  orig: 1379, 842
+  offset: 562, 371
+  index: -1
+chusha_longxl_00028
+  rotate: false
+  xy: 2, 1545
+  size: 728, 393
+  orig: 1379, 842
+  offset: 325, 368
+  index: -1
+chusha_longxl_00030
+  rotate: true
+  xy: 647, 447
+  size: 611, 317
+  orig: 1379, 842
+  offset: 216, 389
+  index: -1
+chusha_longxl_00032
+  rotate: true
+  xy: 1271, 483
+  size: 595, 332
+  orig: 1379, 842
+  offset: 60, 410
+  index: -1
+chusha_longxl_00034
+  rotate: true
+  xy: 1316, 93
+  size: 388, 253
+  orig: 1379, 842
+  offset: 60, 472
+  index: -1
+chusha_longxl_00036
+  rotate: true
+  xy: 1571, 262
+  size: 219, 126
+  orig: 1379, 842
+  offset: 60, 618
+  index: -1
