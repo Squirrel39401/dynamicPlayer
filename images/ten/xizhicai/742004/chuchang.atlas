@@ -1,0 +1,83 @@
+
+chuchang.png
+size: 2034,1610
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuchang/chuchang_03
+  rotate: false
+  xy: 1610, 1368
+  size: 329, 240
+  orig: 534, 534
+  offset: 62, 105
+  index: -1
+chuchang/chuchang_05
+  rotate: true
+  xy: 1607, 538
+  size: 534, 425
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_07
+  rotate: true
+  xy: 1074, 538
+  size: 534, 529
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_09
+  rotate: true
+  xy: 1073, 2
+  size: 534, 532
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_11
+  rotate: true
+  xy: 538, 2
+  size: 534, 533
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_13
+  rotate: false
+  xy: 2, 1074
+  size: 534, 534
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_15
+  rotate: false
+  xy: 2, 538
+  size: 534, 534
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_17
+  rotate: false
+  xy: 2, 2
+  size: 534, 534
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_19
+  rotate: false
+  xy: 538, 1074
+  size: 534, 534
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_21
+  rotate: false
+  xy: 1074, 1074
+  size: 534, 534
+  orig: 534, 534
+  offset: 0, 0
+  index: -1
+chuchang/chuchang_23
+  rotate: false
+  xy: 538, 538
+  size: 534, 534
+  orig: 534, 534
+  offset: 0, 0
+  index: -1

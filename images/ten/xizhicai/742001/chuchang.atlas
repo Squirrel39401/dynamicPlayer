@@ -1,0 +1,195 @@
+
+chuchang.png
+size: 2031,2031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PC_chuchang/xizhicai_chuchang_pc_00
+  rotate: false
+  xy: 1893, 1541
+  size: 71, 68
+  orig: 444, 444
+  offset: 182, 113
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_01
+  rotate: true
+  xy: 1786, 1513
+  size: 96, 105
+  orig: 444, 444
+  offset: 172, 100
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_02
+  rotate: false
+  xy: 1786, 1611
+  size: 179, 178
+  orig: 444, 444
+  offset: 124, 74
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_03
+  rotate: false
+  xy: 1786, 1791
+  size: 243, 238
+  orig: 444, 444
+  offset: 94, 54
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_04
+  rotate: true
+  xy: 2, 5
+  size: 331, 323
+  orig: 444, 444
+  offset: 53, 23
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_05
+  rotate: false
+  xy: 447, 339
+  size: 412, 396
+  orig: 444, 444
+  offset: 10, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_06
+  rotate: false
+  xy: 2, 1170
+  size: 444, 423
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_07
+  rotate: false
+  xy: 448, 1169
+  size: 444, 425
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_08
+  rotate: false
+  xy: 1340, 1167
+  size: 444, 429
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_09
+  rotate: false
+  xy: 1340, 1598
+  size: 444, 431
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_10
+  rotate: false
+  xy: 448, 1596
+  size: 444, 433
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_11
+  rotate: false
+  xy: 2, 1595
+  size: 444, 434
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_12
+  rotate: false
+  xy: 2, 733
+  size: 443, 435
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_13
+  rotate: false
+  xy: 894, 1596
+  size: 444, 433
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_14
+  rotate: false
+  xy: 894, 1163
+  size: 439, 431
+  orig: 444, 444
+  offset: 0, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_15
+  rotate: false
+  xy: 447, 737
+  size: 432, 430
+  orig: 444, 444
+  offset: 2, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_16
+  rotate: true
+  xy: 1335, 743
+  size: 422, 428
+  orig: 444, 444
+  offset: 4, 0
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_17
+  rotate: true
+  xy: 881, 746
+  size: 415, 420
+  orig: 444, 444
+  offset: 6, 4
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_18
+  rotate: true
+  xy: 881, 338
+  size: 406, 414
+  orig: 444, 444
+  offset: 10, 7
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_19
+  rotate: true
+  xy: 2, 340
+  size: 391, 399
+  orig: 444, 444
+  offset: 17, 15
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_20
+  rotate: false
+  xy: 1297, 360
+  size: 373, 381
+  orig: 444, 444
+  offset: 31, 22
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_21
+  rotate: false
+  xy: 1013, 25
+  size: 346, 311
+  orig: 444, 444
+  offset: 39, 65
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_22
+  rotate: false
+  xy: 1672, 438
+  size: 343, 303
+  orig: 444, 444
+  offset: 42, 66
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_23
+  rotate: true
+  xy: 1671, 10
+  size: 348, 306
+  orig: 444, 444
+  offset: 37, 68
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_24
+  rotate: true
+  xy: 1361, 10
+  size: 348, 308
+  orig: 444, 444
+  offset: 36, 69
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_25
+  rotate: false
+  xy: 671, 24
+  size: 340, 312
+  orig: 444, 444
+  offset: 34, 71
+  index: -1
+PC_chuchang/xizhicai_chuchang_pc_26
+  rotate: false
+  xy: 327, 21
+  size: 342, 315
+  orig: 444, 444
+  offset: 32, 72
+  index: -1

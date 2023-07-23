@@ -3,3 +3,7 @@
     -webkit-clip-path: url(#dskin-clip-dpbf);
     height: 200px;
 }
+.jing_avatar{
+    clip-path: none !important;
+    -webkit-clip-path: none !important;
+}

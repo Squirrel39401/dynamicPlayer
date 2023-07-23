@@ -238,3 +238,46 @@
     pointer-events: none;
     z-index: 60;
 }
+.readjust{
+    width: 240px;
+    height: 380px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 999999999;
+}
+.readjustScaleB{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    background: url(../images/dpbf/箭头.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 8888888;
+    width: 100px;
+    height: 100px;
+}
+.readjustScaleS{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    background: url(../images/dpbf/箭头.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 8888888;
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
+}
+.sure{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    background: url(../images/dpbf/箭头.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 8888888;
+    width: 100px;
+    height: 100px;
+}

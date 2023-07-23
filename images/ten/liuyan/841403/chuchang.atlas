@@ -1,0 +1,83 @@
+
+chuchang.png
+size: 2035,2035
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liuyan_chuchang/liuyan_chuchang_pc_05
+  rotate: false
+  xy: 2, 1011
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_07
+  rotate: false
+  xy: 510, 499
+  size: 505, 510
+  orig: 510, 510
+  offset: 5, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_09
+  rotate: false
+  xy: 2, 499
+  size: 506, 510
+  orig: 510, 510
+  offset: 4, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_11
+  rotate: false
+  xy: 514, 1011
+  size: 506, 510
+  orig: 510, 510
+  offset: 4, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_13
+  rotate: false
+  xy: 1022, 1011
+  size: 504, 510
+  orig: 510, 510
+  offset: 6, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_15
+  rotate: false
+  xy: 1023, 1523
+  size: 506, 510
+  orig: 510, 510
+  offset: 4, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_17
+  rotate: false
+  xy: 1531, 1523
+  size: 502, 510
+  orig: 510, 510
+  offset: 8, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_19
+  rotate: false
+  xy: 514, 1523
+  size: 507, 510
+  orig: 510, 510
+  offset: 3, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_21
+  rotate: false
+  xy: 1017, 499
+  size: 504, 510
+  orig: 510, 510
+  offset: 6, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_23
+  rotate: false
+  xy: 1528, 1011
+  size: 494, 510
+  orig: 510, 510
+  offset: 16, 0
+  index: -1
+liuyan_chuchang/liuyan_chuchang_pc_25
+  rotate: false
+  xy: 2, 1523
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1

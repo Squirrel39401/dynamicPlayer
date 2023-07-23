@@ -1,0 +1,76 @@
+
+chuchang.png
+size: 2015,2015
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xizhicai_chuchang/xizhicai_chuchang_pc_05
+  rotate: false
+  xy: 1021, 996
+  size: 508, 510
+  orig: 510, 510
+  offset: 2, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_07
+  rotate: false
+  xy: 2, 486
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_09
+  rotate: false
+  xy: 514, 484
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_11
+  rotate: false
+  xy: 1026, 484
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_13
+  rotate: false
+  xy: 509, 998
+  size: 510, 509
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_15
+  rotate: false
+  xy: 2, 1002
+  size: 505, 506
+  orig: 510, 510
+  offset: 5, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_17
+  rotate: false
+  xy: 1511, 1508
+  size: 502, 505
+  orig: 510, 510
+  offset: 8, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_19
+  rotate: false
+  xy: 1007, 1509
+  size: 502, 504
+  orig: 510, 510
+  offset: 8, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_21
+  rotate: false
+  xy: 2, 1510
+  size: 500, 503
+  orig: 510, 510
+  offset: 10, 0
+  index: -1
+xizhicai_chuchang/xizhicai_chuchang_pc_23
+  rotate: false
+  xy: 504, 1510
+  size: 501, 503
+  orig: 510, 510
+  offset: 9, 0
+  index: -1

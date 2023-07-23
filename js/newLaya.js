@@ -141,7 +141,6 @@
           skeleton.scale.set(scale || 1)
         })
       })
-      console.log(this.path);
       loader.load(this.path).then(source => {
         let skeleton = new PIXI_dpbf.spine.Spine(source.spineData)
         this.skeleton = skeleton
@@ -154,6 +153,7 @@
         skeleton.x = x * 120 + 60
         skeleton.y = y * 190 + 90
         skeleton.scale.set(scale || 1)
+        skeleton.angle = angle || 0
         if(sprite.height&&!background){
           this.canvas.height=sprite.height
           this.canvas.style.height=sprite.height+'px'
